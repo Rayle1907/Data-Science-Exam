@@ -3,9 +3,8 @@ from scraping.blizzard import Blizzard
 import json
 
 blizz = Blizzard(
-    client_id = "71506919f732462aa5dd046cf0094930", 
-    client_secret = "GLENN3yAxE6PNvwoWVlTowd7gLflRdpx",
-    redirect_uri = "https://mandl.tv/"
+    client_id = "", 
+    client_secret = ""
 )
 blizz.authorize()
 realms = blizz.realms(region = "eu")
